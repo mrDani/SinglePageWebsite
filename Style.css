@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Bellota|Lato|Lobster|Pacifico|Righteous|Roboto|Space+Mono|Ubuntu&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family:  'Lato';
+}
+.navbar{
+    border-style: none !important;
+}
+.navbar-brand{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    color: deeppink !important;
+}
+
+.nav-link{
+    font-size: 16px;
+    margin: 15px;
+    color: black !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.nav-link:hover{
+    color: #00E8E8 !important;
+}
+.active .nav-link{
+    color: #00E8E8 !important;
+}
+.menu-right-btn{
+    padding: 13px 46px !important;
+    margin-right: 4% !important;
+    transition: all 300ms ease-in;
+}
+.menu-right-btn:hover{
+    color: white;
+    background-color: #00E8E8 !important;
+}
+.site-content{
+    background-image: url(Images/home-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.site-title, .site-desc{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.site-title{
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+.site-desc{
+    font-size: 14px;
+    padding-left: 15%;
+
+}
+.site-btn1{
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+}.site-btn2{
+    background-color: white;
+}
+.site-btn1, .site-btn2{
+    margin-top: 5%;
+    margin-bottom: 40%;
+}
+/* Section-1*/
+.section-1 .heading-1{
+    margin-top: 8%;
+    
+}
+.section-1 .heading-2{
+    margin-bottom: 5%;
+    font-size: 39px;   
+}
+.section-1 .para-1{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+.section-1 .card-text, .para-1{
+    color: rgba(0,0,0, 0.59);
+}
+.section-1{
+    margin-bottom: 8%;
+}
+
+/* Section 2 */
+
+.section-2 .container-fluid{
+    background-image: url('Images/profile01.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section-2 .heading-1{
+    margin-top: 20%;
+    margin-bottom: 4%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 80%;
+    color: whitesmoke;
+}
+.section-2 .para{
+    width: 80%;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    margin-bottom: 7%;
+}
+.section-2 .btn{
+    margin-bottom: 15%;
+    width: 30%;
+    padding: 2% 5%;
+}
+
+/* Section 3 */
+.section-3{
+    margin-top: 6%;
+}
+.section-3 i{
+    color: #00E8E8;
+}
+.section-3 p{
+    color: rgba(0,0,0, 0.59);
+}
+
+/* Section 4 */
+
+
+.section-4{
+    margin-top: 8%;
+}
+.section-4 .row .col-md-7, .col-md-5{
+    margin-top: 10%;
+    margin-bottom: 10%; 
+}
+.section-4 a{
+    color: lightseagreen;
+    font-size: 40px;
+    text-decoration: none !important;
+}
+.section-4 .para-1{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 7%;
+    font-size: 23px;
+}
+
+.circle-wrap {
+    margin: 50px auto;
+    width: 150px;
+    height: 150px;
+    background: #e6e2e7;
+    border-radius: 50%;
+  }
+  .circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+.circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+  }
+  .circle-wrap .circle .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #9e00b1;
+  }
+  .circle-wrap .circle .mask.full,
+  .circle-wrap .circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(126deg);
+  }
+   
+  @keyframes fill {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(126deg);
+    }
+  }
+  .circle-wrap .inside-circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 130px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+  }
